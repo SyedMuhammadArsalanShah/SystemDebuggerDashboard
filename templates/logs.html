@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Logs</title>
+  <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+</head>
+<body>
+  <h2>🔴 Live Debug Logs</h2>
+  <div id="log-container" style="white-space: pre-wrap; font-family: monospace; height: 90vh; overflow-y: auto; border: 1px solid #ddd; padding: 10px;"></div>
+
+  <script>
+    const socket = io();
+    const container = document.getElementById("log-container");
+
+    socket.on('log', function(data) {
+      const line = document.createElement("div");
+      line.textContent = data.message;
+      container.appendChild(line);
+      container.scrollTop = container.scrollHeight;
+    });
+  </script>
+</body>
+</html>

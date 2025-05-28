@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🛠️ System Debugger Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .log-info    { color: #4ade80; }
+    .log-warning { color: #facc15; }
+    .log-error   { color: #f87171; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-100 to-white dark:from-gray-900 dark:to-gray-800 text-gray-800 dark:text-white min-h-screen transition-all duration-500">
+
+  <div class="max-w-6xl mx-auto px-6 py-8">
+    <!-- Header -->
+    <div class="flex justify-between items-center mb-8">
+      <h1 class="text-4xl font-extrabold tracking-tight bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 bg-clip-text text-transparent animate-pulse">
+        🛠️ System Debugger
+      </h1>
+      <button onclick="toggleDarkMode()" class="bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition">
+        🌓 Toggle Theme
+      </button>
+    </div>
+
+    <!-- Health Cards -->
+    <div id="health-section" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8"></div>
+
+    <!-- Logs -->
+    <div class="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-6 mb-8 transition-all">
+      <h2 class="text-2xl font-semibold mb-4">📄 Live Logs</h2>
+      <div class="overflow-y-auto h-64 bg-black text-sm p-4 rounded-xl font-mono shadow-inner">
+        <pre id="logs" class="whitespace-pre-wrap"></pre>
+      </div>
+    </div>
+
+    <!-- Alerts -->
+    <div class="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-6 transition-all">
+      <h2 class="text-2xl font-semibold mb-4">⚠️ Warnings & Errors</h2>
+      <ul id="alerts" class="space-y-2 list-disc list-inside text-red-400"></ul>
+    </div>
+  </div>
+
+  <script>
+    const fetchLogs = async () => {
+      try {
+        const res = await fetch("http://localhost:8000/logs");
+        const data = await res.json();
+        const logContainer = document.getElementById("logs");
+        logContainer.innerHTML = data.logs.map(line => {
+          if (line.includes("ERROR"))   return `<span class="log-error">${line}</span>`;
+          if (line.includes("WARNING")) return `<span class="log-warning">${line}</span>`;
+          return `<span class="log-info">${line}</span>`;
+        }).join("");
+      } catch (e) {
+        document.getElementById("logs").innerText = "⚠️ Failed to fetch logs.";
+      }
+    };
+
+    const fetchHealth = async () => {
+      try {
+        const res = await fetch("http://localhost:8000/health");
+        const data = await res.json();
+        const section = document.getElementById("health-section");
+        section.innerHTML = Object.entries(data).map(([key, val]) => `
+          <div class="bg-gradient-to-br from-indigo-500 to-purple-500 text-white p-5 rounded-xl shadow-md transition-transform hover:scale-105">
+            <h3 class="text-lg font-bold">${key.toUpperCase()}</h3>
+            <p class="text-2xl font-mono">${val}</p>
+          </div>
+        `).join("");
+      } catch (e) {
+        document.getElementById("health-section").innerHTML = "<p class='text-red-400'>⚠️ Could not load health metrics.</p>";
+      }
+    };
+
+    const fetchAlerts = async () => {
+      try {
+        const res = await fetch("http://localhost:8000/alerts");
+        const data = await res.json();
+        const alerts = document.getElementById("alerts");
+        alerts.innerHTML = data.alerts.map(a => `<li>${a}</li>`).join("");
+      } catch (e) {
+        document.getElementById("alerts").innerHTML = "<li>⚠️ Failed to fetch alerts.</li>";
+      }
+    };
+
+    const toggleDarkMode = () => {
+      document.body.classList.toggle('dark');
+    };
+
+    const refreshAll = () => {
+      fetchLogs();
+      fetchHealth();
+      fetchAlerts();
+    };
+
+    setInterval(refreshAll, 10000);
+    refreshAll();
+  </script>
+</body>
+</html>
