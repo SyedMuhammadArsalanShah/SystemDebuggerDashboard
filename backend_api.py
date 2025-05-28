@@ -1,4 +1,3 @@
-# backend_api.py
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import asyncio
@@ -15,34 +14,50 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-LOG_FILE = "app.log"
+# Resolve full path to log file
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+LOG_FILE = os.path.join(BASE_DIR, "airtracker_debug.log")
 log_lines = []
 
+# Async task to tail the log file
 async def tail_log():
     global log_lines
-    # If file does not exist yet, wait until created
+    print("👀 Waiting for log file...")
+
     while not os.path.exists(LOG_FILE):
         await asyncio.sleep(1)
 
+    print("📂 Log file found. Reading existing lines...")
     with open(LOG_FILE, "r") as f:
-        f.seek(0, 2)  # Go to end of file
+        for line in f.readlines():
+            log_lines.append(line.strip())
+
+        f.seek(0, 2)  # Move to end of file
+        print("🔁 Start tailing logs...")
         while True:
             line = f.readline()
             if line:
+                print(f"📥 New log: {line.strip()}")
                 log_lines.append(line.strip())
-                if len(log_lines) > 200:  # keep last 200 lines
+                if len(log_lines) > 200:
                     log_lines = log_lines[-200:]
             else:
                 await asyncio.sleep(1)
 
+# Start tailing when app launches
 @app.on_event("startup")
 async def startup_event():
-    asyncio.create_task(tail_log())
+    try:
+        asyncio.create_task(tail_log())
+    except Exception as e:
+        print("❌ Failed to start log tailing:", e)
 
+# Return last 50 log lines
 @app.get("/logs")
 def get_logs():
-    return {"logs": log_lines[-50:]}  # last 50 lines
+    return {"logs": log_lines[-50:]}
 
+# Return system health info
 @app.get("/health")
 def get_health():
     return {
@@ -51,8 +66,8 @@ def get_health():
         "disk_percent": psutil.disk_usage('/').percent,
     }
 
+# Return last 20 alerts (warning or error)
 @app.get("/alerts")
 def get_alerts():
     alerts = [line for line in log_lines if "WARNING" in line or "ERROR" in line]
-    return {"alerts": alerts[-20:]}  # last 20 alerts
-
+    return {"alerts": alerts[-200:]}

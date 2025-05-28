@@ -2,91 +2,173 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>🛠️ System Debugger Dashboard</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
-    .log-info    { color: #4ade80; }
-    .log-warning { color: #facc15; }
-    .log-error   { color: #f87171; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);
+      transition: background-color 0.5s ease;
+    }
+    body.dark {
+      background: linear-gradient(135deg, #111827 0%, #000000 100%);
+      color: white;
+    }
+    /* Gradient text for header */
+    .gradient-text {
+      background: linear-gradient(90deg, #22c55e, #3b82f6, #8b5cf6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 900;
+      font-size: 2.5rem;
+    }
+    /* Hover scale for cards */
+    .card-hover:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+    /* Scrollable logs and alerts tables */
+    .scrollable-table {
+      max-height: 16rem;
+      overflow-y: auto;
+    }
   </style>
 </head>
-<body class="bg-gradient-to-br from-gray-100 to-white dark:from-gray-900 dark:to-gray-800 text-gray-800 dark:text-white min-h-screen transition-all duration-500">
+<body>
+  <div class="container py-5">
 
-  <div class="max-w-6xl mx-auto px-6 py-8">
     <!-- Header -->
-    <div class="flex justify-between items-center mb-8">
-      <h1 class="text-4xl font-extrabold tracking-tight bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 bg-clip-text text-transparent animate-pulse">
-        🛠️ System Debugger
-      </h1>
-      <button onclick="toggleDarkMode()" class="bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition">
-        🌓 Toggle Theme
-      </button>
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h1 class="gradient-text">🛠️ System Debugger</h1>
+      <button id="themeToggleBtn" class="btn btn-dark">🌓 Toggle Theme</button>
     </div>
 
-    <!-- Health Cards -->
-    <div id="health-section" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8"></div>
+    <!-- Health Status Cards -->
+    <div id="health-section" class="row g-3 mb-4"></div>
 
-    <!-- Logs -->
-    <div class="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-6 mb-8 transition-all">
-      <h2 class="text-2xl font-semibold mb-4">📄 Live Logs</h2>
-      <div class="overflow-y-auto h-64 bg-black text-sm p-4 rounded-xl font-mono shadow-inner">
-        <pre id="logs" class="whitespace-pre-wrap"></pre>
+    <!-- Logs Section -->
+    <div class="bg-light bg-opacity-75 dark-bg-dark rounded-4 shadow p-4 mb-4 border border-secondary">
+      <h2 class="text-secondary mb-3">📄 Live Logs</h2>
+      <div class="scrollable-table rounded-3">
+        <table class="table table-sm table-striped mb-0 font-monospace">
+          <thead class="table-light">
+            <tr>
+              <th scope="col" style="width: 5%;">#</th>
+              <th scope="col">Log Entry</th>
+            </tr>
+          </thead>
+          <tbody id="logs-table" class="text-body"></tbody>
+        </table>
       </div>
     </div>
 
-    <!-- Alerts -->
-    <div class="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-6 transition-all">
-      <h2 class="text-2xl font-semibold mb-4">⚠️ Warnings & Errors</h2>
-      <ul id="alerts" class="space-y-2 list-disc list-inside text-red-400"></ul>
+    <!-- Alerts Section -->
+    <div class="bg-light bg-opacity-75 dark-bg-dark rounded-4 shadow p-4 border border-danger">
+      <h2 class="text-danger mb-3">⚠️ Warnings & Errors</h2>
+      <div class="scrollable-table rounded-3">
+        <table class="table table-sm mb-0">
+          <thead class="table-danger">
+            <tr>
+              <th scope="col" style="width: 5%;">#</th>
+              <th scope="col">Alert</th>
+            </tr>
+          </thead>
+          <tbody id="alerts-table" class="text-danger"></tbody>
+        </table>
+      </div>
     </div>
+
   </div>
 
   <script>
+    // Theme toggle button
+    const themeToggleBtn = document.getElementById('themeToggleBtn');
+    themeToggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      // Toggle btn styles
+      if(document.body.classList.contains('dark')) {
+        themeToggleBtn.classList.remove('btn-dark');
+        themeToggleBtn.classList.add('btn-light', 'text-dark');
+      } else {
+        themeToggleBtn.classList.add('btn-dark');
+        themeToggleBtn.classList.remove('btn-light', 'text-dark');
+      }
+    });
+
+    // Add some utility classes for dark mode backgrounds
+    const style = document.createElement('style');
+    style.textContent = `
+      .dark-bg-dark {
+        background-color: rgba(30, 30, 30, 0.8) !important;
+        border-color: #444 !important;
+      }
+    `;
+    document.head.appendChild(style);
+
+    // Fetch logs and render with badges for status
     const fetchLogs = async () => {
       try {
         const res = await fetch("http://localhost:8000/logs");
         const data = await res.json();
-        const logContainer = document.getElementById("logs");
-        logContainer.innerHTML = data.logs.map(line => {
-          if (line.includes("ERROR"))   return `<span class="log-error">${line}</span>`;
-          if (line.includes("WARNING")) return `<span class="log-warning">${line}</span>`;
-          return `<span class="log-info">${line}</span>`;
+        const logsTable = document.getElementById("logs-table");
+        logsTable.innerHTML = data.logs.map((line, idx) => {
+          let badgeClass = "bg-success"; // green
+          if (line.includes("ERROR")) badgeClass = "bg-danger";
+          else if (line.includes("WARNING")) badgeClass = "bg-warning text-dark";
+          return `
+            <tr>
+              <td>${idx + 1}</td>
+              <td>
+                <span class="badge ${badgeClass} me-2">${line.includes("ERROR") ? 'Error' : line.includes("WARNING") ? 'Warning' : 'Info'}</span>
+                ${line}
+              </td>
+            </tr>`;
         }).join("");
-      } catch (e) {
-        document.getElementById("logs").innerText = "⚠️ Failed to fetch logs.";
+      } catch {
+        document.getElementById("logs-table").innerHTML = `<tr><td colspan="2" class="text-danger">⚠️ Failed to fetch logs.</td></tr>`;
       }
     };
 
+    // Fetch health data and display as cards with badges
     const fetchHealth = async () => {
       try {
         const res = await fetch("http://localhost:8000/health");
         const data = await res.json();
         const section = document.getElementById("health-section");
         section.innerHTML = Object.entries(data).map(([key, val]) => `
-          <div class="bg-gradient-to-br from-indigo-500 to-purple-500 text-white p-5 rounded-xl shadow-md transition-transform hover:scale-105">
-            <h3 class="text-lg font-bold">${key.toUpperCase()}</h3>
-            <p class="text-2xl font-mono">${val}</p>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card card-hover text-white bg-gradient" style="background: linear-gradient(135deg, #4f46e5, #9333ea);">
+              <div class="card-body">
+                <h5 class="card-title text-uppercase">${key}</h5>
+                <p class="card-text fs-3 font-monospace">
+                  <span class="badge bg-info">${val}</span>
+                </p>
+              </div>
+            </div>
           </div>
         `).join("");
-      } catch (e) {
-        document.getElementById("health-section").innerHTML = "<p class='text-red-400'>⚠️ Could not load health metrics.</p>";
+      } catch {
+        document.getElementById("health-section").innerHTML = "<p class='text-danger'>⚠️ Could not load health metrics.</p>";
       }
     };
 
+    // Fetch alerts and show in table
     const fetchAlerts = async () => {
       try {
         const res = await fetch("http://localhost:8000/alerts");
         const data = await res.json();
-        const alerts = document.getElementById("alerts");
-        alerts.innerHTML = data.alerts.map(a => `<li>${a}</li>`).join("");
-      } catch (e) {
-        document.getElementById("alerts").innerHTML = "<li>⚠️ Failed to fetch alerts.</li>";
+        const alertsTable = document.getElementById("alerts-table");
+        alertsTable.innerHTML = data.alerts.map((alert, idx) => `
+          <tr>
+            <td>${idx + 1}</td>
+            <td>${alert}</td>
+          </tr>
+        `).join("");
+      } catch {
+        document.getElementById("alerts-table").innerHTML = `<tr><td colspan="2" class="text-danger">⚠️ Failed to fetch alerts.</td></tr>`;
       }
-    };
-
-    const toggleDarkMode = () => {
-      document.body.classList.toggle('dark');
     };
 
     const refreshAll = () => {
@@ -98,5 +180,8 @@
     setInterval(refreshAll, 10000);
     refreshAll();
   </script>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

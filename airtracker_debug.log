@@ -1,0 +1,1175 @@
+2025-05-28 03:41:00,352 - DEBUG - CoInitializeEx(None, 2)
+2025-05-28 03:41:00,990 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\mfabid\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-05-28 03:41:00,990 - INFO - Using writeable comtypes cache directory: 'C:\Users\mfabid\AppData\Local\Programs\Python\Python38\lib\site-packages\comtypes\gen'
+2025-05-28 03:41:01,196 - DEBUG - STREAM b'IHDR' 16 13
+2025-05-28 03:41:01,196 - DEBUG - STREAM b'pHYs' 41 9
+2025-05-28 03:41:01,197 - DEBUG - STREAM b'iTXt' 62 1410
+2025-05-28 03:41:01,198 - DEBUG - STREAM b'IDAT' 1484 170389
+2025-05-28 03:41:01,500 - DEBUG - Initializing gesture recognition pipeline...
+2025-05-28 03:41:01,501 - DEBUG - Loading LSTM model for sequence analysis...
+2025-05-28 03:41:02,508 - DEBUG - LSTM model loaded successfully.
+2025-05-28 03:41:02,508 - DEBUG - Loading CNN model for spatial analysis...
+2025-05-28 03:41:03,522 - DEBUG - CNN model loaded successfully.
+2025-05-28 03:41:03,523 - DEBUG - Gesture recognition models are ready.
+2025-05-28 03:41:08,798 - DEBUG - PowerPoint.Application -> {91493441-5A91-11CF-8700-00AA0060263B}
+2025-05-28 03:41:08,799 - DEBUG - CoCreateInstance({91493441-5A91-11CF-8700-00AA0060263B}, clsctx=None, interface=None)
+2025-05-28 03:41:09,436 - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x22e6e302a20 at 22e6a161dc0>)
+2025-05-28 03:41:09,446 - DEBUG - Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2025-05-28 03:41:09,447 - DEBUG - Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2025-05-28 03:41:09,460 - DEBUG - Release <POINTER(IUnknown) ptr=0x22e6e1d4c98 at 22e6cc5d0c0>
+2025-05-28 03:41:09,462 - DEBUG - Default interface is {91493442-5A91-11CF-8700-00AA0060263B}
+2025-05-28 03:41:09,474 - DEBUG - Release <POINTER(IUnknown) ptr=0x22e6e245878 at 22e6cc5d1c0>
+2025-05-28 03:41:09,481 - DEBUG - GetModule(TLIBATTR(GUID={91493440-5A91-11CF-8700-00AA0060263B}, Version=2.12, LCID=0, FLags=0x8))
+2025-05-28 03:41:09,888 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._91493440_5A91_11CF_8700_00AA0060263B_0_2_12._Application'>
+2025-05-28 03:41:09,889 - DEBUG - Final result is <POINTER(_Application) ptr=0x22e6e245878 at 22e6cc5d2c0>
+2025-05-28 03:41:09,889 - DEBUG - Release <POINTER(IDispatch) ptr=0x22e6e1d4c28 at 22e6cc5d040>
+2025-05-28 03:41:09,889 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x22e6e1d4c98 at 22e6cc5d140>
+2025-05-28 03:41:09,890 - DEBUG - Release <POINTER(ITypeLib) ptr=0x22e6e2458e8 at 22e6cc5d1c0>
+2025-05-28 03:41:09,890 - DEBUG - Release <POINTER(IUnknown) ptr=0x22e6e302a20 at 22e6a161dc0>
+2025-05-28 03:41:10,828 - DEBUG - wrap_outparam(<POINTER(Presentations) ptr=0x22e6e28f198 at 22e6a161dc0>)
+2025-05-28 03:41:10,837 - DEBUG - Release <POINTER(Presentations) ptr=0x22e6e28f198 at 22e6a161dc0>
+2025-05-28 03:41:10,848 - DEBUG - wrap_outparam(<POINTER(Presentations) ptr=0x22e6e28e5c8 at 22e6a161dc0>)
+2025-05-28 03:41:12,500 - DEBUG - Release <POINTER(_Presentation) ptr=0x22e6e2a24e8 at 22e6a161ec0>
+2025-05-28 03:41:12,500 - DEBUG - Release <POINTER(Presentations) ptr=0x22e6e28e5c8 at 22e6a161dc0>
+2025-05-28 03:41:12,632 - DEBUG - wrap_outparam(<POINTER(SlideShowSettings) ptr=0x22e6e245648 at 22e6a161dc0>)
+2025-05-28 03:41:12,808 - DEBUG - wrap_outparam(<POINTER(SlideShowWindow) ptr=0x22e6e28f0b8 at 22e6a161f40>)
+2025-05-28 03:41:12,808 - DEBUG - Release <POINTER(SlideShowSettings) ptr=0x22e6e245648 at 22e6a161dc0>
+2025-05-28 03:41:12,825 - DEBUG - Release <POINTER(SlideShowWindow) ptr=0x22e6e28f0b8 at 22e6a161f40>
+2025-05-28 03:41:12,853 - DEBUG - wrap_outparam(<POINTER(Presentations) ptr=0x22e6e237b58 at 22e6a161f40>)
+2025-05-28 03:41:12,862 - DEBUG - Release <POINTER(Presentations) ptr=0x22e6e237b58 at 22e6a161f40>
+2025-05-28 03:41:13,450 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e6e2381e8 at 22e6a161f40>)
+2025-05-28 03:41:13,458 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e6e2381e8 at 22e6a161f40>
+2025-05-28 03:41:13,537 - DEBUG - Initializing CameraHandler
+2025-05-28 03:41:13,543 - DEBUG - Initializing CanvasHandler
+2025-05-28 03:41:13,544 - DEBUG - Attempting to start camera
+2025-05-28 03:41:13,914 - DEBUG - matplotlib data path: C:\Users\mfabid\AppData\Local\Programs\Python\Python38\lib\site-packages\matplotlib\mpl-data
+2025-05-28 03:41:13,929 - DEBUG - CONFIGDIR=C:\Users\mfabid\.matplotlib
+2025-05-28 03:41:13,933 - DEBUG - interactive is False
+2025-05-28 03:41:13,933 - DEBUG - platform is win32
+2025-05-28 03:41:14,078 - DEBUG - CACHEDIR=C:\Users\mfabid\.matplotlib
+2025-05-28 03:41:14,088 - DEBUG - Using fontManager instance from C:\Users\mfabid\.matplotlib\fontlist-v330.json
+2025-05-28 03:41:27,531 - DEBUG - Camera opened successfully
+2025-05-28 03:41:49,890 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce518 at 22e722b7440>)
+2025-05-28 03:41:49,893 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce518 at 22e722b7440>
+2025-05-28 03:41:50,111 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e722b7440>)
+2025-05-28 03:41:50,114 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e722b7440>
+2025-05-28 03:41:50,334 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd948 at 22e722b7440>)
+2025-05-28 03:41:50,338 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd948 at 22e722b7440>
+2025-05-28 03:41:50,558 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce518 at 22e722b7440>)
+2025-05-28 03:41:50,562 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce518 at 22e722b7440>
+2025-05-28 03:41:50,776 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce9e8 at 22e722b7440>)
+2025-05-28 03:41:50,779 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce9e8 at 22e722b7440>
+2025-05-28 03:41:50,998 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd6a8 at 22e722b7440>)
+2025-05-28 03:41:51,001 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd6a8 at 22e722b7440>
+2025-05-28 03:41:51,136 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:51,137 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (887, 464)
+2025-05-28 03:41:51,214 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdbe8 at 22e722b7440>)
+2025-05-28 03:41:51,217 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdbe8 at 22e722b7440>
+2025-05-28 03:41:51,224 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:51,225 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (824, 449)
+2025-05-28 03:41:51,314 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:51,314 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (819, 445)
+2025-05-28 03:41:51,393 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:51,394 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (815, 430)
+2025-05-28 03:41:51,434 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e722b7440>)
+2025-05-28 03:41:51,437 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e722b7440>
+2025-05-28 03:41:51,474 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:51,474 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (819, 426)
+2025-05-28 03:41:51,550 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:51,550 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (815, 422)
+2025-05-28 03:41:51,628 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:51,628 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (805, 426)
+2025-05-28 03:41:51,656 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdd38 at 22e722b7440>)
+2025-05-28 03:41:51,658 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdd38 at 22e722b7440>
+2025-05-28 03:41:51,709 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:51,709 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (801, 433)
+2025-05-28 03:41:51,709 - DEBUG - Detected right pinky finger gesture
+2025-05-28 03:41:51,879 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd6a8 at 22e722b7440>)
+2025-05-28 03:41:51,882 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd6a8 at 22e722b7440>
+2025-05-28 03:41:51,939 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:51,939 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (846, 441)
+2025-05-28 03:41:52,063 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:52,064 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (865, 437)
+2025-05-28 03:41:52,099 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd638 at 22e72438ac0>)
+2025-05-28 03:41:52,105 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd638 at 22e72438ac0>
+2025-05-28 03:41:52,186 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:52,186 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (865, 449)
+2025-05-28 03:41:52,314 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd408 at 22e72438ac0>)
+2025-05-28 03:41:52,317 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:52,317 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (860, 456)
+2025-05-28 03:41:52,318 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd408 at 22e72438ac0>
+2025-05-28 03:41:52,455 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:52,456 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (865, 456)
+2025-05-28 03:41:52,543 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdf68 at 22e72438ac0>)
+2025-05-28 03:41:52,546 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdf68 at 22e72438ac0>
+2025-05-28 03:41:52,580 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:52,581 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (865, 468)
+2025-05-28 03:41:52,759 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:52,759 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (874, 472)
+2025-05-28 03:41:52,773 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e72438ac0>)
+2025-05-28 03:41:52,775 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e72438ac0>
+2025-05-28 03:41:52,866 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:52,866 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (878, 476)
+2025-05-28 03:41:52,985 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdb78 at 22e72438ac0>)
+2025-05-28 03:41:52,989 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdb78 at 22e72438ac0>
+2025-05-28 03:41:53,007 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:53,007 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (878, 480)
+2025-05-28 03:41:53,009 - DEBUG - Detected right pinky finger gesture
+2025-05-28 03:41:53,217 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72438ac0>)
+2025-05-28 03:41:53,223 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72438ac0>
+2025-05-28 03:41:53,274 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:53,274 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (892, 483)
+2025-05-28 03:41:53,401 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:53,402 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (897, 487)
+2025-05-28 03:41:53,448 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e72438ac0>)
+2025-05-28 03:41:53,452 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e72438ac0>
+2025-05-28 03:41:53,528 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:53,529 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (892, 487)
+2025-05-28 03:41:53,663 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:53,664 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (892, 491)
+2025-05-28 03:41:53,669 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e72438ac0>)
+2025-05-28 03:41:53,673 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e72438ac0>
+2025-05-28 03:41:53,776 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:53,777 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (892, 491)
+2025-05-28 03:41:53,867 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:53,867 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (897, 491)
+2025-05-28 03:41:53,884 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdfd8 at 22e72438ac0>)
+2025-05-28 03:41:53,886 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdfd8 at 22e72438ac0>
+2025-05-28 03:41:53,994 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:53,994 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (897, 491)
+2025-05-28 03:41:54,109 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce908 at 22e72474f40>)
+2025-05-28 03:41:54,111 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce908 at 22e72474f40>
+2025-05-28 03:41:54,115 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:54,115 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (897, 487)
+2025-05-28 03:41:54,234 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:54,234 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (897, 487)
+2025-05-28 03:41:54,234 - DEBUG - Detected right pinky finger gesture
+2025-05-28 03:41:54,329 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72474f40>)
+2025-05-28 03:41:54,330 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72474f40>
+2025-05-28 03:41:54,439 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:54,439 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (897, 487)
+2025-05-28 03:41:54,535 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:54,535 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (901, 483)
+2025-05-28 03:41:54,539 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e722b7440>)
+2025-05-28 03:41:54,541 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e722b7440>
+2025-05-28 03:41:54,620 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:54,621 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (901, 483)
+2025-05-28 03:41:54,701 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:54,701 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (901, 487)
+2025-05-28 03:41:54,757 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd1d8 at 22e722b7440>)
+2025-05-28 03:41:54,759 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd1d8 at 22e722b7440>
+2025-05-28 03:41:54,781 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:54,781 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (906, 487)
+2025-05-28 03:41:54,858 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:54,858 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (906, 483)
+2025-05-28 03:41:54,935 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:54,936 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (906, 487)
+2025-05-28 03:41:54,976 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e72438ec0>)
+2025-05-28 03:41:54,977 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e72438ec0>
+2025-05-28 03:41:55,020 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:55,021 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (906, 487)
+2025-05-28 03:41:55,107 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:55,107 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (906, 487)
+2025-05-28 03:41:55,187 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:55,187 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (906, 487)
+2025-05-28 03:41:55,200 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e72438ec0>)
+2025-05-28 03:41:55,202 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e72438ec0>
+2025-05-28 03:41:55,266 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:55,266 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (910, 487)
+2025-05-28 03:41:55,344 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:55,345 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (910, 487)
+2025-05-28 03:41:55,418 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdef8 at 22e72438ec0>)
+2025-05-28 03:41:55,420 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdef8 at 22e72438ec0>
+2025-05-28 03:41:55,426 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:55,426 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (910, 487)
+2025-05-28 03:41:55,426 - DEBUG - Detected right pinky finger gesture
+2025-05-28 03:41:55,644 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce7b8 at 22e72438ec0>)
+2025-05-28 03:41:55,648 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce7b8 at 22e72438ec0>
+2025-05-28 03:41:55,702 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:55,702 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (915, 487)
+2025-05-28 03:41:55,845 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:55,845 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (919, 487)
+2025-05-28 03:41:55,871 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdb08 at 22e72438ec0>)
+2025-05-28 03:41:55,874 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdb08 at 22e72438ec0>
+2025-05-28 03:41:55,981 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:55,981 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (924, 491)
+2025-05-28 03:41:56,098 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd638 at 22e72438ec0>)
+2025-05-28 03:41:56,102 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd638 at 22e72438ec0>
+2025-05-28 03:41:56,122 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:56,123 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (924, 491)
+2025-05-28 03:41:56,232 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:56,232 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (924, 487)
+2025-05-28 03:41:56,307 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:56,307 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (924, 487)
+2025-05-28 03:41:56,324 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdbe8 at 22e72438ec0>)
+2025-05-28 03:41:56,326 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdbe8 at 22e72438ec0>
+2025-05-28 03:41:56,455 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:56,455 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (924, 487)
+2025-05-28 03:41:56,546 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce748 at 22e72474f40>)
+2025-05-28 03:41:56,549 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce748 at 22e72474f40>
+2025-05-28 03:41:56,614 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:56,615 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (924, 487)
+2025-05-28 03:41:56,730 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:41:56,731 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (928, 487)
+2025-05-28 03:41:56,731 - DEBUG - Detected right pinky finger gesture
+2025-05-28 03:41:56,810 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce7b8 at 22e72474f40>)
+2025-05-28 03:41:56,813 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce7b8 at 22e72474f40>
+2025-05-28 03:41:56,985 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:56,985 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (919, 491)
+2025-05-28 03:41:57,030 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd638 at 22e72474f40>)
+2025-05-28 03:41:57,033 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd638 at 22e72474f40>
+2025-05-28 03:41:57,090 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:57,090 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (910, 503)
+2025-05-28 03:41:57,191 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:57,191 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (906, 495)
+2025-05-28 03:41:57,247 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdfd8 at 22e72474f40>)
+2025-05-28 03:41:57,249 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdfd8 at 22e72474f40>
+2025-05-28 03:41:57,269 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:57,270 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (910, 503)
+2025-05-28 03:41:57,348 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:57,348 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (915, 503)
+2025-05-28 03:41:57,426 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:57,426 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (919, 503)
+2025-05-28 03:41:57,468 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd9b8 at 22e722b7440>)
+2025-05-28 03:41:57,470 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd9b8 at 22e722b7440>
+2025-05-28 03:41:57,507 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:57,507 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (924, 503)
+2025-05-28 03:41:57,586 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:57,586 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (924, 499)
+2025-05-28 03:41:57,698 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e722b7440>)
+2025-05-28 03:41:57,702 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e722b7440>
+2025-05-28 03:41:57,733 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:57,733 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (924, 503)
+2025-05-28 03:41:57,822 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:57,823 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (924, 495)
+2025-05-28 03:41:57,901 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:41:57,902 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (928, 495)
+2025-05-28 03:41:57,912 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce4a8 at 22e72438ac0>)
+2025-05-28 03:41:57,915 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce4a8 at 22e72438ac0>
+2025-05-28 03:41:57,979 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:57,979 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (951, 491)
+2025-05-28 03:41:57,979 - DEBUG - Detected left thumb gesture
+2025-05-28 03:41:58,137 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce828 at 22e72438ac0>)
+2025-05-28 03:41:58,141 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce828 at 22e72438ac0>
+2025-05-28 03:41:58,233 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:58,234 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (978, 483)
+2025-05-28 03:41:58,310 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:58,310 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (978, 483)
+2025-05-28 03:41:58,351 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e72438ac0>)
+2025-05-28 03:41:58,353 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e72438ac0>
+2025-05-28 03:41:58,390 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:58,390 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (978, 483)
+2025-05-28 03:41:58,467 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:58,468 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (978, 483)
+2025-05-28 03:41:58,547 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:58,547 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (978, 483)
+2025-05-28 03:41:58,572 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce518 at 22e72438ac0>)
+2025-05-28 03:41:58,574 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce518 at 22e72438ac0>
+2025-05-28 03:41:58,626 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:58,626 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (978, 483)
+2025-05-28 03:41:58,705 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:58,705 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (978, 487)
+2025-05-28 03:41:58,783 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:58,784 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (978, 487)
+2025-05-28 03:41:58,792 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72438ac0>)
+2025-05-28 03:41:58,796 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72438ac0>
+2025-05-28 03:41:58,863 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:58,863 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (978, 483)
+2025-05-28 03:41:58,943 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:58,944 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (978, 487)
+2025-05-28 03:41:59,014 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e72438ac0>)
+2025-05-28 03:41:59,015 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e72438ac0>
+2025-05-28 03:41:59,023 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:59,024 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (978, 487)
+2025-05-28 03:41:59,183 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:59,183 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (983, 487)
+2025-05-28 03:41:59,248 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd1d8 at 22e72438ac0>)
+2025-05-28 03:41:59,254 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd1d8 at 22e72438ac0>
+2025-05-28 03:41:59,327 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:59,328 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (983, 487)
+2025-05-28 03:41:59,328 - DEBUG - Detected left thumb gesture
+2025-05-28 03:41:59,473 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e72474f40>)
+2025-05-28 03:41:59,475 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e72474f40>
+2025-05-28 03:41:59,535 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:59,535 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (988, 487)
+2025-05-28 03:41:59,619 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:59,619 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (988, 487)
+2025-05-28 03:41:59,693 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdd38 at 22e72474f40>)
+2025-05-28 03:41:59,695 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdd38 at 22e72474f40>
+2025-05-28 03:41:59,700 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:59,700 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (992, 487)
+2025-05-28 03:41:59,777 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:59,778 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (992, 487)
+2025-05-28 03:41:59,857 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:59,857 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (997, 487)
+2025-05-28 03:41:59,913 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72474f40>)
+2025-05-28 03:41:59,915 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72474f40>
+2025-05-28 03:41:59,938 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:41:59,938 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (997, 487)
+2025-05-28 03:42:00,025 - DEBUG - Detected fingers: [1, 0, 0, 0, 0]
+2025-05-28 03:42:00,025 - DEBUG - Handling gesture: [1, 0, 0, 0, 0] at (997, 491)
+2025-05-28 03:42:00,108 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:00,109 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (997, 480)
+2025-05-28 03:42:00,133 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce518 at 22e722b7440>)
+2025-05-28 03:42:00,136 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce518 at 22e722b7440>
+2025-05-28 03:42:00,187 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:00,187 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (988, 495)
+2025-05-28 03:42:00,266 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:00,266 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (992, 495)
+2025-05-28 03:42:00,361 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce0b8 at 22e722b7440>)
+2025-05-28 03:42:00,366 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce0b8 at 22e722b7440>
+2025-05-28 03:42:00,437 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:00,438 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (983, 491)
+2025-05-28 03:42:00,536 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:00,536 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (974, 487)
+2025-05-28 03:42:00,577 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd168 at 22e722b7440>)
+2025-05-28 03:42:00,579 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd168 at 22e722b7440>
+2025-05-28 03:42:00,620 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:00,620 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (983, 480)
+2025-05-28 03:42:00,799 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:00,800 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (997, 460)
+2025-05-28 03:42:00,811 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce908 at 22e72438ec0>)
+2025-05-28 03:42:00,817 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce908 at 22e72438ec0>
+2025-05-28 03:42:00,999 - DEBUG - Detected fingers: [0, 1, 0, 0, 1]
+2025-05-28 03:42:00,999 - DEBUG - Handling gesture: [0, 1, 0, 0, 1] at (842, 276)
+2025-05-28 03:42:01,000 - DEBUG - Detected canvas toggle gesture
+2025-05-28 03:42:01,015 - DEBUG - STREAM b'IHDR' 16 13
+2025-05-28 03:42:01,016 - DEBUG - STREAM b'sBIT' 41 4
+2025-05-28 03:42:01,017 - DEBUG - b'sBIT' 41 4 (unknown)
+2025-05-28 03:42:01,018 - DEBUG - STREAM b'pHYs' 57 9
+2025-05-28 03:42:01,019 - DEBUG - STREAM b'tEXt' 78 25
+2025-05-28 03:42:01,020 - DEBUG - STREAM b'IDAT' 115 8192
+2025-05-28 03:42:01,065 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72474cc0>)
+2025-05-28 03:42:01,071 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72474cc0>
+2025-05-28 03:42:01,129 - DEBUG - STREAM b'IHDR' 16 13
+2025-05-28 03:42:01,130 - DEBUG - STREAM b'sBIT' 41 4
+2025-05-28 03:42:01,130 - DEBUG - b'sBIT' 41 4 (unknown)
+2025-05-28 03:42:01,131 - DEBUG - STREAM b'pHYs' 57 9
+2025-05-28 03:42:01,131 - DEBUG - STREAM b'tEXt' 78 25
+2025-05-28 03:42:01,132 - DEBUG - STREAM b'IDAT' 115 8192
+2025-05-28 03:42:01,164 - DEBUG - STREAM b'IHDR' 16 13
+2025-05-28 03:42:01,164 - DEBUG - STREAM b'sBIT' 41 4
+2025-05-28 03:42:01,164 - DEBUG - b'sBIT' 41 4 (unknown)
+2025-05-28 03:42:01,164 - DEBUG - STREAM b'pHYs' 57 9
+2025-05-28 03:42:01,164 - DEBUG - STREAM b'tEXt' 78 25
+2025-05-28 03:42:01,164 - DEBUG - STREAM b'IDAT' 115 8192
+2025-05-28 03:42:01,268 - DEBUG - Detected fingers: [0, 1, 0, 0, 1]
+2025-05-28 03:42:01,268 - DEBUG - Handling gesture: [0, 1, 0, 0, 1] at (869, 257)
+2025-05-28 03:42:01,268 - DEBUG - Detected canvas toggle gesture
+2025-05-28 03:42:01,290 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e72474bc0>)
+2025-05-28 03:42:01,292 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e72474bc0>
+2025-05-28 03:42:01,404 - DEBUG - Detected fingers: [0, 1, 0, 0, 1]
+2025-05-28 03:42:01,404 - DEBUG - Handling gesture: [0, 1, 0, 0, 1] at (874, 253)
+2025-05-28 03:42:01,406 - DEBUG - Detected canvas toggle gesture
+2025-05-28 03:42:01,513 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd6a8 at 22e72474ac0>)
+2025-05-28 03:42:01,517 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd6a8 at 22e72474ac0>
+2025-05-28 03:42:01,531 - DEBUG - Detected fingers: [0, 1, 0, 0, 1]
+2025-05-28 03:42:01,531 - DEBUG - Handling gesture: [0, 1, 0, 0, 1] at (878, 257)
+2025-05-28 03:42:01,532 - DEBUG - Detected canvas toggle gesture
+2025-05-28 03:42:01,651 - DEBUG - Detected fingers: [0, 1, 0, 0, 1]
+2025-05-28 03:42:01,652 - DEBUG - Handling gesture: [0, 1, 0, 0, 1] at (878, 253)
+2025-05-28 03:42:01,652 - DEBUG - Detected canvas toggle gesture
+2025-05-28 03:42:01,736 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd6a8 at 22e724741c0>)
+2025-05-28 03:42:01,739 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd6a8 at 22e724741c0>
+2025-05-28 03:42:01,778 - DEBUG - Detected fingers: [0, 1, 0, 0, 1]
+2025-05-28 03:42:01,779 - DEBUG - Handling gesture: [0, 1, 0, 0, 1] at (883, 257)
+2025-05-28 03:42:01,779 - DEBUG - Detected canvas toggle gesture
+2025-05-28 03:42:01,950 - DEBUG - Detected fingers: [0, 1, 0, 0, 1]
+2025-05-28 03:42:01,950 - DEBUG - Handling gesture: [0, 1, 0, 0, 1] at (883, 257)
+2025-05-28 03:42:01,951 - DEBUG - Detected canvas toggle gesture
+2025-05-28 03:42:01,964 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e724743c0>)
+2025-05-28 03:42:01,983 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e724743c0>
+2025-05-28 03:42:02,062 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:02,062 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (1006, 257)
+2025-05-28 03:42:02,063 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:02,154 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:02,155 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (1029, 253)
+2025-05-28 03:42:02,155 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:02,190 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e722b7440>)
+2025-05-28 03:42:02,192 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e722b7440>
+2025-05-28 03:42:02,247 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:02,247 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (1029, 238)
+2025-05-28 03:42:02,247 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:02,342 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:02,343 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (1019, 230)
+2025-05-28 03:42:02,343 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:02,412 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdb08 at 22e72438a40>)
+2025-05-28 03:42:02,413 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdb08 at 22e72438a40>
+2025-05-28 03:42:02,436 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:02,437 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (1010, 218)
+2025-05-28 03:42:02,437 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:02,529 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:02,529 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (1001, 218)
+2025-05-28 03:42:02,529 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:02,628 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:02,628 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (969, 218)
+2025-05-28 03:42:02,629 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:02,637 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdd38 at 22e72438840>)
+2025-05-28 03:42:02,638 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdd38 at 22e72438840>
+2025-05-28 03:42:02,717 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:02,717 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (951, 218)
+2025-05-28 03:42:02,718 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:02,859 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ceba8 at 22e724742c0>)
+2025-05-28 03:42:02,862 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ceba8 at 22e724742c0>
+2025-05-28 03:42:02,892 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:02,893 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (915, 215)
+2025-05-28 03:42:02,894 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:03,023 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:03,023 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (883, 222)
+2025-05-28 03:42:03,023 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:03,078 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdb08 at 22e72438340>)
+2025-05-28 03:42:03,080 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdb08 at 22e72438340>
+2025-05-28 03:42:03,116 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:03,116 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (819, 230)
+2025-05-28 03:42:03,116 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:03,212 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:03,213 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (764, 238)
+2025-05-28 03:42:03,213 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:03,306 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e72438cc0>)
+2025-05-28 03:42:03,310 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e72438cc0>
+2025-05-28 03:42:03,372 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:03,372 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (760, 241)
+2025-05-28 03:42:03,373 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:03,527 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e72438f40>)
+2025-05-28 03:42:03,530 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e72438f40>
+2025-05-28 03:42:03,551 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:03,552 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (701, 276)
+2025-05-28 03:42:03,553 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:03,717 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:03,718 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (692, 288)
+2025-05-28 03:42:03,718 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:03,761 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd638 at 22e72474340>)
+2025-05-28 03:42:03,765 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd638 at 22e72474340>
+2025-05-28 03:42:03,895 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:03,895 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (705, 314)
+2025-05-28 03:42:03,896 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:04,036 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce4a8 at 22e72438f40>)
+2025-05-28 03:42:04,041 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce4a8 at 22e72438f40>
+2025-05-28 03:42:04,097 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:04,098 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (737, 318)
+2025-05-28 03:42:04,098 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:04,256 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e72438cc0>)
+2025-05-28 03:42:04,259 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e72438cc0>
+2025-05-28 03:42:04,269 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:04,269 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (769, 314)
+2025-05-28 03:42:04,270 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:04,449 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:04,450 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (851, 303)
+2025-05-28 03:42:04,450 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:04,488 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd4e8 at 22e72438340>)
+2025-05-28 03:42:04,492 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd4e8 at 22e72438340>
+2025-05-28 03:42:04,621 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:04,621 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (897, 284)
+2025-05-28 03:42:04,621 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:04,706 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdf68 at 22e72438ac0>)
+2025-05-28 03:42:04,708 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdf68 at 22e72438ac0>
+2025-05-28 03:42:04,714 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:04,714 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (960, 268)
+2025-05-28 03:42:04,715 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:04,881 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:04,882 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (974, 268)
+2025-05-28 03:42:04,882 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:04,933 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdf68 at 22e72438ac0>)
+2025-05-28 03:42:04,936 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdf68 at 22e72438ac0>
+2025-05-28 03:42:05,031 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:05,032 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (978, 264)
+2025-05-28 03:42:05,032 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:05,158 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdfd8 at 22e72438c40>)
+2025-05-28 03:42:05,162 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdfd8 at 22e72438c40>
+2025-05-28 03:42:05,186 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:05,187 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (983, 261)
+2025-05-28 03:42:05,187 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:05,278 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:05,278 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (983, 261)
+2025-05-28 03:42:05,278 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:05,370 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd638 at 22e72438dc0>)
+2025-05-28 03:42:05,372 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd638 at 22e72438dc0>
+2025-05-28 03:42:05,375 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:05,375 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (988, 257)
+2025-05-28 03:42:05,376 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:05,539 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:05,540 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (988, 261)
+2025-05-28 03:42:05,540 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:05,596 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd4e8 at 22e72474940>)
+2025-05-28 03:42:05,599 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd4e8 at 22e72474940>
+2025-05-28 03:42:05,635 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:05,635 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (988, 261)
+2025-05-28 03:42:05,635 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:05,726 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:05,727 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (992, 261)
+2025-05-28 03:42:05,727 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:05,815 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce0b8 at 22e72438f40>)
+2025-05-28 03:42:05,817 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce0b8 at 22e72438f40>
+2025-05-28 03:42:05,823 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:05,823 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (978, 264)
+2025-05-28 03:42:05,824 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:05,980 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:05,981 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (937, 257)
+2025-05-28 03:42:05,981 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:06,055 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e72438c40>)
+2025-05-28 03:42:06,060 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e72438c40>
+2025-05-28 03:42:06,117 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:06,117 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (906, 249)
+2025-05-28 03:42:06,118 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:06,240 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:06,240 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (906, 245)
+2025-05-28 03:42:06,240 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:06,273 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd4e8 at 22e72438840>)
+2025-05-28 03:42:06,276 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd4e8 at 22e72438840>
+2025-05-28 03:42:06,325 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:06,325 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (897, 241)
+2025-05-28 03:42:06,326 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:06,408 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:06,408 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (901, 241)
+2025-05-28 03:42:06,408 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:06,489 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:06,489 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (901, 241)
+2025-05-28 03:42:06,490 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:06,496 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e724740c0>)
+2025-05-28 03:42:06,499 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e724740c0>
+2025-05-28 03:42:06,580 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:06,580 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (901, 234)
+2025-05-28 03:42:06,580 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:06,710 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:06,711 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (901, 238)
+2025-05-28 03:42:06,712 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:06,723 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e72474b40>)
+2025-05-28 03:42:06,727 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e72474b40>
+2025-05-28 03:42:06,857 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:06,858 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (910, 184)
+2025-05-28 03:42:06,858 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:06,938 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e72474dc0>)
+2025-05-28 03:42:06,941 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e72474dc0>
+2025-05-28 03:42:06,999 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:06,999 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (919, 161)
+2025-05-28 03:42:06,999 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:07,113 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:07,113 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (919, 142)
+2025-05-28 03:42:07,113 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:07,158 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd6a8 at 22e72474ec0>)
+2025-05-28 03:42:07,160 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd6a8 at 22e72474ec0>
+2025-05-28 03:42:07,199 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:07,199 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (901, 122)
+2025-05-28 03:42:07,199 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:07,353 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:07,353 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (901, 126)
+2025-05-28 03:42:07,354 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:07,389 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd168 at 22e72474640>)
+2025-05-28 03:42:07,393 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd168 at 22e72474640>
+2025-05-28 03:42:07,515 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:07,515 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (887, 122)
+2025-05-28 03:42:07,517 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:07,618 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e724747c0>)
+2025-05-28 03:42:07,622 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e724747c0>
+2025-05-28 03:42:07,662 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:07,662 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (878, 119)
+2025-05-28 03:42:07,663 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:07,819 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:07,819 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (874, 119)
+2025-05-28 03:42:07,819 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:07,838 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e73726040>)
+2025-05-28 03:42:07,848 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e73726040>
+2025-05-28 03:42:07,960 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:07,961 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (869, 122)
+2025-05-28 03:42:07,961 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:08,059 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdf68 at 22e72474540>)
+2025-05-28 03:42:08,062 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdf68 at 22e72474540>
+2025-05-28 03:42:08,063 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:08,063 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (856, 126)
+2025-05-28 03:42:08,064 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:08,171 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:08,171 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (851, 122)
+2025-05-28 03:42:08,172 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:08,257 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:08,258 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (846, 115)
+2025-05-28 03:42:08,258 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:08,291 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e72474e40>)
+2025-05-28 03:42:08,293 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e72474e40>
+2025-05-28 03:42:08,352 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:08,352 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (846, 107)
+2025-05-28 03:42:08,352 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:08,355 - DEBUG - Setting tool to: pink
+2025-05-28 03:42:08,507 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdbe8 at 22e72474cc0>)
+2025-05-28 03:42:08,511 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdbe8 at 22e72474cc0>
+2025-05-28 03:42:08,528 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:08,529 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (851, 96)
+2025-05-28 03:42:08,529 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:08,535 - DEBUG - Setting tool to: pink
+2025-05-28 03:42:08,727 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:08,728 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (846, 88)
+2025-05-28 03:42:08,728 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72474dc0>)
+2025-05-28 03:42:08,729 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:08,734 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72474dc0>
+2025-05-28 03:42:08,740 - DEBUG - Setting tool to: pink
+2025-05-28 03:42:08,918 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:08,918 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (851, 92)
+2025-05-28 03:42:08,918 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:08,927 - DEBUG - Setting tool to: pink
+2025-05-28 03:42:08,958 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e72474ac0>)
+2025-05-28 03:42:08,963 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e72474ac0>
+2025-05-28 03:42:09,109 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:09,109 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (837, 145)
+2025-05-28 03:42:09,109 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:09,204 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdfd8 at 22e72474040>)
+2025-05-28 03:42:09,209 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdfd8 at 22e72474040>
+2025-05-28 03:42:09,242 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:09,242 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (833, 176)
+2025-05-28 03:42:09,243 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:09,327 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:09,327 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (828, 203)
+2025-05-28 03:42:09,327 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:09,438 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce908 at 22e72474940>)
+2025-05-28 03:42:09,442 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce908 at 22e72474940>
+2025-05-28 03:42:09,497 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:09,498 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (824, 203)
+2025-05-28 03:42:09,499 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:09,656 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e72438ac0>)
+2025-05-28 03:42:09,662 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e72438ac0>
+2025-05-28 03:42:09,695 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:09,696 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (846, 207)
+2025-05-28 03:42:09,696 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:09,837 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:09,837 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (897, 184)
+2025-05-28 03:42:09,837 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:09,873 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce908 at 22e72438d40>)
+2025-05-28 03:42:09,875 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce908 at 22e72438d40>
+2025-05-28 03:42:09,937 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:09,938 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (897, 176)
+2025-05-28 03:42:09,938 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:10,028 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:10,029 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (901, 168)
+2025-05-28 03:42:10,029 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:10,096 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdbe8 at 22e724749c0>)
+2025-05-28 03:42:10,098 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdbe8 at 22e724749c0>
+2025-05-28 03:42:10,128 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:10,128 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (897, 161)
+2025-05-28 03:42:10,128 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:10,223 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:10,224 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (883, 165)
+2025-05-28 03:42:10,224 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:10,315 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e724740c0>)
+2025-05-28 03:42:10,318 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e724740c0>
+2025-05-28 03:42:10,319 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:10,320 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (869, 165)
+2025-05-28 03:42:10,320 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:10,422 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:10,422 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (846, 157)
+2025-05-28 03:42:10,423 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:10,550 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce828 at 22e72474dc0>)
+2025-05-28 03:42:10,552 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce828 at 22e72474dc0>
+2025-05-28 03:42:10,565 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:10,565 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (819, 157)
+2025-05-28 03:42:10,566 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:10,685 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:10,685 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (778, 153)
+2025-05-28 03:42:10,685 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:10,770 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:10,770 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (760, 153)
+2025-05-28 03:42:10,770 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:10,808 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e72474640>)
+2025-05-28 03:42:10,813 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e72474640>
+2025-05-28 03:42:10,857 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:10,858 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (719, 157)
+2025-05-28 03:42:10,858 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:10,955 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:10,956 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (705, 161)
+2025-05-28 03:42:10,956 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:11,027 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd6a8 at 22e72474ec0>)
+2025-05-28 03:42:11,029 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd6a8 at 22e72474ec0>
+2025-05-28 03:42:11,056 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:11,057 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (673, 161)
+2025-05-28 03:42:11,057 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:11,155 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:11,156 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (651, 161)
+2025-05-28 03:42:11,156 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:11,246 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e72474ec0>)
+2025-05-28 03:42:11,248 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e72474ec0>
+2025-05-28 03:42:11,256 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:11,257 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (632, 161)
+2025-05-28 03:42:11,257 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:11,364 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:11,364 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (632, 161)
+2025-05-28 03:42:11,365 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:11,465 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72474640>)
+2025-05-28 03:42:11,467 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72474640>
+2025-05-28 03:42:11,472 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:11,472 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (637, 161)
+2025-05-28 03:42:11,472 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:11,581 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:11,581 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (669, 153)
+2025-05-28 03:42:11,582 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:11,686 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72474dc0>)
+2025-05-28 03:42:11,688 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72474dc0>
+2025-05-28 03:42:11,691 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:11,691 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (696, 153)
+2025-05-28 03:42:11,692 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:11,795 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:11,796 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (755, 153)
+2025-05-28 03:42:11,796 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:11,895 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:11,895 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (819, 165)
+2025-05-28 03:42:11,895 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:11,912 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdef8 at 22e72474b40>)
+2025-05-28 03:42:11,915 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdef8 at 22e72474b40>
+2025-05-28 03:42:11,995 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:11,996 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (869, 168)
+2025-05-28 03:42:11,996 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:12,088 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:12,088 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (869, 172)
+2025-05-28 03:42:12,089 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:12,135 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdb08 at 22e724749c0>)
+2025-05-28 03:42:12,138 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdb08 at 22e724749c0>
+2025-05-28 03:42:12,190 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:12,190 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (937, 157)
+2025-05-28 03:42:12,190 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:12,284 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:12,284 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (974, 161)
+2025-05-28 03:42:12,284 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:12,355 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd6a8 at 22e724749c0>)
+2025-05-28 03:42:12,356 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd6a8 at 22e724749c0>
+2025-05-28 03:42:12,379 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:12,379 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (965, 165)
+2025-05-28 03:42:12,380 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:12,470 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:12,471 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (978, 168)
+2025-05-28 03:42:12,471 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:12,565 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:12,565 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (1001, 168)
+2025-05-28 03:42:12,565 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:12,575 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdef8 at 22e72474cc0>)
+2025-05-28 03:42:12,576 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdef8 at 22e72474cc0>
+2025-05-28 03:42:12,661 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:12,662 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (1019, 199)
+2025-05-28 03:42:12,662 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:12,757 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:12,757 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (1019, 211)
+2025-05-28 03:42:12,757 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:12,803 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdfd8 at 22e72474c40>)
+2025-05-28 03:42:12,808 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdfd8 at 22e72474c40>
+2025-05-28 03:42:12,904 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:12,904 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (1010, 211)
+2025-05-28 03:42:12,905 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:13,028 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd9b8 at 22e72474ac0>)
+2025-05-28 03:42:13,032 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd9b8 at 22e72474ac0>
+2025-05-28 03:42:13,070 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:13,070 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (1015, 188)
+2025-05-28 03:42:13,070 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:13,167 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:13,167 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (1019, 176)
+2025-05-28 03:42:13,167 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:13,247 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce828 at 22e72474540>)
+2025-05-28 03:42:13,251 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce828 at 22e72474540>
+2025-05-28 03:42:13,327 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:13,327 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (1019, 165)
+2025-05-28 03:42:13,327 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:13,466 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:13,466 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (1024, 149)
+2025-05-28 03:42:13,467 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:13,487 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72438c40>)
+2025-05-28 03:42:13,524 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72438c40>
+2025-05-28 03:42:13,587 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:13,587 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (1033, 134)
+2025-05-28 03:42:13,588 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:13,680 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:13,681 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (1074, 103)
+2025-05-28 03:42:13,681 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:13,683 - DEBUG - Setting tool to: eraser
+2025-05-28 03:42:13,743 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e72474f40>)
+2025-05-28 03:42:13,746 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e72474f40>
+2025-05-28 03:42:13,770 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:13,770 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (1074, 107)
+2025-05-28 03:42:13,770 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:13,774 - DEBUG - Setting tool to: eraser
+2025-05-28 03:42:13,865 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:13,866 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (1074, 103)
+2025-05-28 03:42:13,866 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:13,869 - DEBUG - Setting tool to: eraser
+2025-05-28 03:42:13,960 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:13,960 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (1074, 103)
+2025-05-28 03:42:13,961 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:13,965 - DEBUG - Setting tool to: eraser
+2025-05-28 03:42:13,968 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdfd8 at 22e72438840>)
+2025-05-28 03:42:13,970 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdfd8 at 22e72438840>
+2025-05-28 03:42:14,053 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:14,053 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (1060, 107)
+2025-05-28 03:42:14,053 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:14,056 - DEBUG - Setting tool to: eraser
+2025-05-28 03:42:14,195 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd1d8 at 22e72438dc0>)
+2025-05-28 03:42:14,200 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd1d8 at 22e72438dc0>
+2025-05-28 03:42:14,237 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:14,238 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (1060, 107)
+2025-05-28 03:42:14,238 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:14,246 - DEBUG - Setting tool to: eraser
+2025-05-28 03:42:14,419 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd638 at 22e72474f40>)
+2025-05-28 03:42:14,424 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd638 at 22e72474f40>
+2025-05-28 03:42:14,441 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:14,442 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (1033, 130)
+2025-05-28 03:42:14,443 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:14,639 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e72474540>)
+2025-05-28 03:42:14,642 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e72474540>
+2025-05-28 03:42:14,648 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:14,649 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (956, 188)
+2025-05-28 03:42:14,649 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:14,767 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:14,767 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (919, 211)
+2025-05-28 03:42:14,767 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:14,856 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdf68 at 22e72474ac0>)
+2025-05-28 03:42:14,859 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdf68 at 22e72474ac0>
+2025-05-28 03:42:14,885 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:14,885 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (897, 218)
+2025-05-28 03:42:14,885 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:15,000 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:15,000 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (897, 215)
+2025-05-28 03:42:15,000 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:15,076 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdbe8 at 22e72474040>)
+2025-05-28 03:42:15,078 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdbe8 at 22e72474040>
+2025-05-28 03:42:15,088 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:15,088 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (897, 218)
+2025-05-28 03:42:15,088 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:15,231 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:15,232 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (892, 226)
+2025-05-28 03:42:15,232 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:15,316 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce518 at 22e72474b40>)
+2025-05-28 03:42:15,321 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce518 at 22e72474b40>
+2025-05-28 03:42:15,400 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:15,401 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (883, 238)
+2025-05-28 03:42:15,401 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:15,499 - DEBUG - Detected fingers: [0, 1, 1, 0, 0]
+2025-05-28 03:42:15,499 - DEBUG - Handling gesture: [0, 1, 1, 0, 0] at (887, 245)
+2025-05-28 03:42:15,499 - DEBUG - Detected pointer gesture
+2025-05-28 03:42:15,535 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e724749c0>)
+2025-05-28 03:42:15,537 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e724749c0>
+2025-05-28 03:42:15,593 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:15,594 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (901, 238)
+2025-05-28 03:42:15,594 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:15,687 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:15,688 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (901, 238)
+2025-05-28 03:42:15,688 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:15,756 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd398 at 22e73ad20c0>)
+2025-05-28 03:42:15,757 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd398 at 22e73ad20c0>
+2025-05-28 03:42:15,789 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:15,790 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (910, 234)
+2025-05-28 03:42:15,790 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:15,882 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:15,882 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (910, 234)
+2025-05-28 03:42:15,882 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:15,977 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:15,978 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e73ad23c0>)
+2025-05-28 03:42:15,978 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (915, 230)
+2025-05-28 03:42:15,979 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:15,980 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd558 at 22e73ad23c0>
+2025-05-28 03:42:16,065 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:16,065 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (906, 230)
+2025-05-28 03:42:16,066 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:16,156 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:16,156 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (906, 230)
+2025-05-28 03:42:16,156 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:16,199 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e73ad26c0>)
+2025-05-28 03:42:16,202 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e73ad26c0>
+2025-05-28 03:42:16,246 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:16,246 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (883, 238)
+2025-05-28 03:42:16,246 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:16,341 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:16,341 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (869, 241)
+2025-05-28 03:42:16,341 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:16,409 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdf68 at 22e73ad28c0>)
+2025-05-28 03:42:16,412 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdf68 at 22e73ad28c0>
+2025-05-28 03:42:16,433 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:16,433 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (828, 249)
+2025-05-28 03:42:16,433 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:16,524 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:16,525 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (810, 253)
+2025-05-28 03:42:16,525 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:16,622 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:16,622 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (774, 261)
+2025-05-28 03:42:16,622 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:16,632 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e72474d40>)
+2025-05-28 03:42:16,637 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e72474d40>
+2025-05-28 03:42:16,715 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:16,715 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (746, 261)
+2025-05-28 03:42:16,715 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:16,806 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:16,806 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (719, 264)
+2025-05-28 03:42:16,806 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:16,850 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdb08 at 22e72474bc0>)
+2025-05-28 03:42:16,852 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdb08 at 22e72474bc0>
+2025-05-28 03:42:16,900 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:16,901 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (705, 264)
+2025-05-28 03:42:16,901 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:16,987 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:16,987 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (683, 272)
+2025-05-28 03:42:16,987 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:17,070 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd4e8 at 22e72474e40>)
+2025-05-28 03:42:17,072 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd4e8 at 22e72474e40>
+2025-05-28 03:42:17,079 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:17,080 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (673, 280)
+2025-05-28 03:42:17,080 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:17,211 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:17,211 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (655, 280)
+2025-05-28 03:42:17,212 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:17,316 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd398 at 22e724747c0>)
+2025-05-28 03:42:17,318 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd398 at 22e724747c0>
+2025-05-28 03:42:17,346 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:17,346 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (651, 284)
+2025-05-28 03:42:17,346 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:17,525 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:17,526 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (664, 288)
+2025-05-28 03:42:17,526 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:17,530 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdd38 at 22e72474ec0>)
+2025-05-28 03:42:17,534 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdd38 at 22e72474ec0>
+2025-05-28 03:42:17,686 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:17,686 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (733, 291)
+2025-05-28 03:42:17,686 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:17,755 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce518 at 22e72438ac0>)
+2025-05-28 03:42:17,762 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce518 at 22e72438ac0>
+2025-05-28 03:42:17,846 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:17,847 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (746, 291)
+2025-05-28 03:42:17,847 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:17,974 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd638 at 22e73ad26c0>)
+2025-05-28 03:42:17,979 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd638 at 22e73ad26c0>
+2025-05-28 03:42:18,012 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:18,012 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (792, 303)
+2025-05-28 03:42:18,012 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:18,102 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:18,102 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (815, 303)
+2025-05-28 03:42:18,102 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:18,195 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ceba8 at 22e73ad24c0>)
+2025-05-28 03:42:18,197 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:18,197 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ceba8 at 22e73ad24c0>
+2025-05-28 03:42:18,198 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (860, 299)
+2025-05-28 03:42:18,199 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:18,290 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:18,290 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (897, 299)
+2025-05-28 03:42:18,291 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:18,379 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:18,379 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (919, 284)
+2025-05-28 03:42:18,380 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:18,417 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdfd8 at 22e73ad20c0>)
+2025-05-28 03:42:18,420 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdfd8 at 22e73ad20c0>
+2025-05-28 03:42:18,474 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:42:18,475 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (951, 284)
+2025-05-28 03:42:18,475 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:42:18,575 - DEBUG - Detected fingers: [1, 1, 0, 0, 0]
+2025-05-28 03:42:18,575 - DEBUG - Handling gesture: [1, 1, 0, 0, 0] at (965, 284)
+2025-05-28 03:42:18,575 - DEBUG - Detected play/pause gesture
+2025-05-28 03:42:18,643 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd9b8 at 22e72438840>)
+2025-05-28 03:42:18,648 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd9b8 at 22e72438840>
+2025-05-28 03:42:18,862 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e72438840>)
+2025-05-28 03:42:18,866 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd5c8 at 22e72438840>
+2025-05-28 03:42:19,081 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd408 at 22e72438840>)
+2025-05-28 03:42:19,087 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd408 at 22e72438840>
+2025-05-28 03:42:19,329 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e72438840>)
+2025-05-28 03:42:19,333 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd478 at 22e72438840>
+2025-05-28 03:42:19,552 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72438840>)
+2025-05-28 03:42:19,560 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e72438840>
+2025-05-28 03:42:19,784 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ceb38 at 22e72438840>)
+2025-05-28 03:42:19,790 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ceb38 at 22e72438840>
+2025-05-28 03:42:20,022 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce828 at 22e72438840>)
+2025-05-28 03:42:20,028 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce828 at 22e72438840>
+2025-05-28 03:42:20,096 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:20,097 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (951, 541)
+2025-05-28 03:42:20,216 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:20,216 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (960, 549)
+2025-05-28 03:42:20,247 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdd38 at 22e722b7440>)
+2025-05-28 03:42:20,249 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdd38 at 22e722b7440>
+2025-05-28 03:42:20,302 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:20,303 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (956, 541)
+2025-05-28 03:42:20,394 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:20,394 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (951, 541)
+2025-05-28 03:42:20,466 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e722b7440>)
+2025-05-28 03:42:20,468 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce048 at 22e722b7440>
+2025-05-28 03:42:20,478 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:20,478 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (951, 549)
+2025-05-28 03:42:20,624 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:20,624 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (951, 541)
+2025-05-28 03:42:20,688 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdef8 at 22e722b7440>)
+2025-05-28 03:42:20,690 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdef8 at 22e722b7440>
+2025-05-28 03:42:20,711 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:20,711 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (960, 545)
+2025-05-28 03:42:20,787 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:20,788 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (951, 541)
+2025-05-28 03:42:20,867 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:20,867 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (951, 541)
+2025-05-28 03:42:20,908 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cd168 at 22e722b7440>)
+2025-05-28 03:42:20,910 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cd168 at 22e722b7440>
+2025-05-28 03:42:20,947 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:20,947 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (965, 541)
+2025-05-28 03:42:21,039 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:42:21,040 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (969, 518)
+2025-05-28 03:42:21,130 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e724749c0>)
+2025-05-28 03:42:21,133 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2cdc58 at 22e724749c0>
+2025-05-28 03:42:21,162 - DEBUG - Detected fingers: [1, 0, 0, 0, 1]
+2025-05-28 03:42:21,163 - DEBUG - Handling gesture: [1, 0, 0, 0, 1] at (988, 537)
+2025-05-28 03:42:21,163 - DEBUG - Detected close gesture
+2025-05-28 03:42:21,350 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x22e7b2ce0b8 at 22e72474940>)
+2025-05-28 03:42:21,351 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x22e7b2ce0b8 at 22e72474940>
+2025-05-28 03:42:21,951 - DEBUG - Release <POINTER(_Application) ptr=0x22e6e245878 at 22e6cc5d2c0>
+2025-05-28 03:42:21,953 - DEBUG - Release <POINTER(_Presentation) ptr=0x22e6e2a24e8 at 22e6a161e40>
+2025-05-28 03:42:38,638 - DEBUG - Calling CoUninitialize()
+2025-05-28 03:42:38,639 - DEBUG - CoUninitialize() done.
+2025-05-28 03:50:23,144 - DEBUG - CoInitializeEx(None, 2)
+2025-05-28 03:50:23,587 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\mfabid\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-05-28 03:50:23,587 - INFO - Using writeable comtypes cache directory: 'C:\Users\mfabid\AppData\Local\Programs\Python\Python38\lib\site-packages\comtypes\gen'
+2025-05-28 03:50:23,786 - DEBUG - STREAM b'IHDR' 16 13
+2025-05-28 03:50:23,788 - DEBUG - STREAM b'pHYs' 41 9
+2025-05-28 03:50:23,788 - DEBUG - STREAM b'iTXt' 62 1410
+2025-05-28 03:50:23,788 - DEBUG - STREAM b'IDAT' 1484 170389
+2025-05-28 03:50:23,959 - DEBUG - Initializing gesture recognition pipeline...
+2025-05-28 03:50:23,959 - DEBUG - Loading LSTM model for sequence analysis...
+2025-05-28 03:50:24,963 - DEBUG - LSTM model loaded successfully.
+2025-05-28 03:50:24,963 - DEBUG - Loading CNN model for spatial analysis...
+2025-05-28 03:50:25,977 - DEBUG - CNN model loaded successfully.
+2025-05-28 03:50:25,977 - DEBUG - Gesture recognition models are ready.
+2025-05-28 03:50:27,358 - DEBUG - Initializing powerpoint
+2025-05-28 03:50:28,134 - DEBUG - Initializing powerpoint
+2025-05-28 03:50:30,465 - DEBUG - Initializing powerpoint
+2025-05-28 03:50:31,864 - DEBUG - Initializing powerpoint
+2025-05-28 03:50:32,433 - DEBUG - run powerpoint
+2025-05-28 03:50:32,438 - DEBUG - PowerPoint.Application -> {91493441-5A91-11CF-8700-00AA0060263B}
+2025-05-28 03:50:32,439 - DEBUG - CoCreateInstance({91493441-5A91-11CF-8700-00AA0060263B}, clsctx=None, interface=None)
+2025-05-28 03:50:33,262 - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x142dd53f810 at 142d92ade40>)
+2025-05-28 03:50:33,271 - DEBUG - Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2025-05-28 03:50:33,272 - DEBUG - Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2025-05-28 03:50:33,286 - DEBUG - Release <POINTER(IUnknown) ptr=0x142dd478e78 at 142dbdb6140>
+2025-05-28 03:50:33,288 - DEBUG - Default interface is {91493442-5A91-11CF-8700-00AA0060263B}
+2025-05-28 03:50:33,299 - DEBUG - Release <POINTER(IUnknown) ptr=0x142dd40f298 at 142dbdb6240>
+2025-05-28 03:50:33,304 - DEBUG - GetModule(TLIBATTR(GUID={91493440-5A91-11CF-8700-00AA0060263B}, Version=2.12, LCID=0, FLags=0x8))
+2025-05-28 03:50:33,756 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._91493440_5A91_11CF_8700_00AA0060263B_0_2_12._Application'>
+2025-05-28 03:50:33,757 - DEBUG - Final result is <POINTER(_Application) ptr=0x142dd40f298 at 142dbdb6340>
+2025-05-28 03:50:33,758 - DEBUG - Release <POINTER(IDispatch) ptr=0x142dd478fc8 at 142dbdb60c0>
+2025-05-28 03:50:33,758 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x142dd478e78 at 142dbdb61c0>
+2025-05-28 03:50:33,758 - DEBUG - Release <POINTER(ITypeLib) ptr=0x142dd40ec08 at 142dbdb6240>
+2025-05-28 03:50:33,759 - DEBUG - Release <POINTER(IUnknown) ptr=0x142dd53f810 at 142d92ade40>
+2025-05-28 03:50:34,680 - DEBUG - wrap_outparam(<POINTER(Presentations) ptr=0x142dd3d13e8 at 142d92ade40>)
+2025-05-28 03:50:34,687 - DEBUG - Release <POINTER(Presentations) ptr=0x142dd3d13e8 at 142d92ade40>
+2025-05-28 03:50:34,699 - DEBUG - wrap_outparam(<POINTER(Presentations) ptr=0x142dd40e6c8 at 142d92ade40>)
+2025-05-28 03:50:36,395 - DEBUG - Release <POINTER(_Presentation) ptr=0x142d8d00c78 at 142d92adcc0>
+2025-05-28 03:50:36,396 - DEBUG - Release <POINTER(Presentations) ptr=0x142dd40e6c8 at 142d92ade40>
+2025-05-28 03:50:36,520 - DEBUG - wrap_outparam(<POINTER(SlideShowSettings) ptr=0x142dd40e738 at 142d92ade40>)
+2025-05-28 03:50:36,647 - DEBUG - wrap_outparam(<POINTER(SlideShowWindow) ptr=0x142d8d007a8 at 142d92adec0>)
+2025-05-28 03:50:36,648 - DEBUG - Release <POINTER(SlideShowSettings) ptr=0x142dd40e738 at 142d92ade40>
+2025-05-28 03:50:36,672 - DEBUG - Release <POINTER(SlideShowWindow) ptr=0x142d8d007a8 at 142d92adec0>
+2025-05-28 03:50:36,759 - DEBUG - wrap_outparam(<POINTER(Presentations) ptr=0x142d8d00ab8 at 142d92adec0>)
+2025-05-28 03:50:36,768 - DEBUG - Release <POINTER(Presentations) ptr=0x142d8d00ab8 at 142d92adec0>
+2025-05-28 03:50:37,290 - DEBUG - Initializing powerpoint
+2025-05-28 03:50:37,328 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142d8d00e38 at 142d92adec0>)
+2025-05-28 03:50:37,346 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142d8d00e38 at 142d92adec0>
+2025-05-28 03:50:37,349 - DEBUG - display camera overlay
+2025-05-28 03:50:37,423 - DEBUG - Initializing CameraHandler
+2025-05-28 03:50:37,425 - DEBUG - Initializing CanvasHandler
+2025-05-28 03:50:37,426 - DEBUG - Attempting to start camera
+2025-05-28 03:50:37,825 - DEBUG - matplotlib data path: C:\Users\mfabid\AppData\Local\Programs\Python\Python38\lib\site-packages\matplotlib\mpl-data
+2025-05-28 03:50:37,838 - DEBUG - CONFIGDIR=C:\Users\mfabid\.matplotlib
+2025-05-28 03:50:37,846 - DEBUG - interactive is False
+2025-05-28 03:50:37,846 - DEBUG - platform is win32
+2025-05-28 03:50:38,008 - DEBUG - CACHEDIR=C:\Users\mfabid\.matplotlib
+2025-05-28 03:50:38,018 - DEBUG - Using fontManager instance from C:\Users\mfabid\.matplotlib\fontlist-v330.json
+2025-05-28 03:50:51,818 - DEBUG - Camera opened successfully
+2025-05-28 03:51:18,945 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142e177a9f8 at 142e141c4c0>)
+2025-05-28 03:51:18,949 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142e177a9f8 at 142e141c4c0>
+2025-05-28 03:51:19,157 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142ea641ef8 at 142e141c4c0>)
+2025-05-28 03:51:19,160 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142ea641ef8 at 142e141c4c0>
+2025-05-28 03:51:19,376 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142dd3e4e78 at 142e141c4c0>)
+2025-05-28 03:51:19,378 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142dd3e4e78 at 142e141c4c0>
+2025-05-28 03:51:19,599 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142dd3e4af8 at 142e141c4c0>)
+2025-05-28 03:51:19,602 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142dd3e4af8 at 142e141c4c0>
+2025-05-28 03:51:19,820 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142e177ab48 at 142e141c4c0>)
+2025-05-28 03:51:19,823 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142e177ab48 at 142e141c4c0>
+2025-05-28 03:51:20,041 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142eb052c88 at 142e141c4c0>)
+2025-05-28 03:51:20,046 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142eb052c88 at 142e141c4c0>
+2025-05-28 03:51:20,050 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:51:20,050 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (801, 280)
+2025-05-28 03:51:20,168 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:51:20,168 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (764, 334)
+2025-05-28 03:51:20,169 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:51:20,261 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142e177ab48 at 142e141c4c0>)
+2025-05-28 03:51:20,262 - DEBUG - Detected fingers: [0, 1, 0, 0, 0]
+2025-05-28 03:51:20,263 - DEBUG - Handling gesture: [0, 1, 0, 0, 0] at (751, 307)
+2025-05-28 03:51:20,263 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142e177ab48 at 142e141c4c0>
+2025-05-28 03:51:20,264 - DEBUG - Detected drawing mode gesture
+2025-05-28 03:51:20,392 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:51:20,393 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (746, 360)
+2025-05-28 03:51:20,501 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142dd3e4a88 at 142e141c4c0>)
+2025-05-28 03:51:20,515 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142dd3e4a88 at 142e141c4c0>
+2025-05-28 03:51:20,516 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:51:20,516 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (755, 341)
+2025-05-28 03:51:20,617 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:51:20,617 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (764, 368)
+2025-05-28 03:51:20,738 - DEBUG - Detected fingers: [0, 0, 0, 0, 0]
+2025-05-28 03:51:20,739 - DEBUG - Handling gesture: [0, 0, 0, 0, 0] at (774, 353)
+2025-05-28 03:51:20,758 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142eaaeced8 at 142e141c4c0>)
+2025-05-28 03:51:20,760 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142eaaeced8 at 142e141c4c0>
+2025-05-28 03:51:20,816 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:20,817 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (778, 314)
+2025-05-28 03:51:20,817 - DEBUG - Detected right pinky finger gesture
+2025-05-28 03:51:20,981 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142ea640c28 at 142e141c4c0>)
+2025-05-28 03:51:20,983 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142ea640c28 at 142e141c4c0>
+2025-05-28 03:51:21,053 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:21,054 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (783, 322)
+2025-05-28 03:51:21,187 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:21,188 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (805, 349)
+2025-05-28 03:51:21,206 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142dd3e4a88 at 142e141c4c0>)
+2025-05-28 03:51:21,211 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142dd3e4a88 at 142e141c4c0>
+2025-05-28 03:51:21,310 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:21,311 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (810, 353)
+2025-05-28 03:51:21,427 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142dd3e5578 at 142e15bab40>)
+2025-05-28 03:51:21,431 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142dd3e5578 at 142e15bab40>
+2025-05-28 03:51:21,440 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:21,440 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (815, 353)
+2025-05-28 03:51:21,563 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:21,564 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (819, 311)
+2025-05-28 03:51:21,650 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142eb054218 at 142e15bab40>)
+2025-05-28 03:51:21,653 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142eb054218 at 142e15bab40>
+2025-05-28 03:51:21,692 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:21,692 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (828, 303)
+2025-05-28 03:51:21,833 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:21,833 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (837, 330)
+2025-05-28 03:51:21,870 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142dd3e5348 at 142e15bab40>)
+2025-05-28 03:51:21,873 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142dd3e5348 at 142e15bab40>
+2025-05-28 03:51:21,930 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:21,930 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (846, 337)
+2025-05-28 03:51:22,017 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:22,018 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (851, 337)
+2025-05-28 03:51:22,018 - DEBUG - Detected right pinky finger gesture
+2025-05-28 03:51:22,127 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142e177abb8 at 142e15bab40>)
+2025-05-28 03:51:22,131 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142e177abb8 at 142e15bab40>
+2025-05-28 03:51:22,220 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:22,220 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (869, 326)
+2025-05-28 03:51:22,296 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:22,297 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (874, 357)
+2025-05-28 03:51:22,338 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142ea640ec8 at 142e15bab40>)
+2025-05-28 03:51:22,340 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142ea640ec8 at 142e15bab40>
+2025-05-28 03:51:22,377 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:22,377 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (874, 357)
+2025-05-28 03:51:22,454 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:22,454 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (878, 349)
+2025-05-28 03:51:22,532 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:22,532 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (883, 349)
+2025-05-28 03:51:22,558 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142e177a0c8 at 142e15bab40>)
+2025-05-28 03:51:22,560 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142e177a0c8 at 142e15bab40>
+2025-05-28 03:51:22,610 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:22,611 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (883, 337)
+2025-05-28 03:51:22,691 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:22,691 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (887, 334)
+2025-05-28 03:51:22,790 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:22,790 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (883, 345)
+2025-05-28 03:51:22,805 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142ea641788 at 142e15f3f40>)
+2025-05-28 03:51:22,811 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142ea641788 at 142e15f3f40>
+2025-05-28 03:51:22,912 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:22,913 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (887, 353)
+2025-05-28 03:51:23,038 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142eb0565c8 at 142e15f3f40>)
+2025-05-28 03:51:23,041 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142eb0565c8 at 142e15f3f40>
+2025-05-28 03:51:23,061 - DEBUG - Detected fingers: [0, 0, 0, 0, 1]
+2025-05-28 03:51:23,062 - DEBUG - Handling gesture: [0, 0, 0, 0, 1] at (874, 368)
+2025-05-28 03:51:23,202 - DEBUG - Detected fingers: [1, 0, 0, 0, 1]
+2025-05-28 03:51:23,202 - DEBUG - Handling gesture: [1, 0, 0, 0, 1] at (883, 376)
+2025-05-28 03:51:23,202 - DEBUG - Detected close gesture
+2025-05-28 03:51:23,251 - DEBUG - wrap_outparam(<POINTER(SlideShowWindows) ptr=0x142ea764208 at 142e15f3f40>)
+2025-05-28 03:51:23,254 - DEBUG - Release <POINTER(SlideShowWindows) ptr=0x142ea764208 at 142e15f3f40>
+2025-05-28 03:51:23,613 - DEBUG - force kill powerpoint
+2025-05-28 03:51:23,933 - DEBUG - Release <POINTER(_Application) ptr=0x142dd40f298 at 142dbdb6340>
+2025-05-28 03:51:23,934 - DEBUG - Release <POINTER(_Presentation) ptr=0x142d8d00c78 at 142dbdb6240>
+2025-05-28 03:51:29,199 - DEBUG - Initializing powerpoint
+2025-05-28 03:51:30,397 - DEBUG - Initializing powerpoint
+2025-05-28 03:51:30,573 - DEBUG - Calling CoUninitialize()
+2025-05-28 03:51:30,573 - DEBUG - CoUninitialize() done.
