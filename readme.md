@@ -66,7 +66,7 @@ uvicorn backend_api:app --reload --host 0.0.0.0 --port 8000
 
 ### 🖼️ Screenshot
 
-![Dashboard Screenshot](https://via.placeholder.com/800x400.png?text=Add+Your+Screenshot+Here)
+![Dashboard Screenshot](https://github.com/user-attachments/assets/667a0dd1-7010-46a8-bb7e-241840ab898b)
 
 ---
 
